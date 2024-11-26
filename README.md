@@ -1,5 +1,9 @@
 # mqtt-esp8266-arduino
 
+## Descripción:
+
+Este es un ejemplo de cómo transferir datos utilizando MQTT desde un ESP8266 utilizando Arduino IDE, hasta una base de datos MySQL utilizando Python, para crear un sistema IoT demostrativo.
+
 ## Requisitos de instalación:
 
 1.	Mosquitto Broker (MQTT): https://mosquitto.org/download/
