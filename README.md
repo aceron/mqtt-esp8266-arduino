@@ -53,7 +53,7 @@ mosquitto -v -c mosquitto.conf
 
 2.	Además de instalar las herramientas necesarias para el microcontrolador respectivo (e.g. ESP8266), es necesario instalar la librería “PubSubClient” de “Nick O’Learly” en el gestor de librerías del Arduino IDE.
 
-3.	Seguir las instrucciones para ejecutar el ejemplo https://www.luisllamas.es/como-usar-mqtt-en-el-esp8266-esp32/ 
+3.	Seguir las instrucciones para ejecutar el ejemplo https://www.luisllamas.es/como-usar-mqtt-en-el-esp8266-esp32/ (Es posible que se tenga que renombrar el archivo 36_Mqtt.ino a 35_Mqtt.ino, de lo contrario el Arduino IDE no lo reconocerá como proyecto).
 
 4.	El Mosquitto Broker (MQTT) estará disponible en el puerto 1883 de la computadora principal. Es necesario configurar los Arduinos para que encuentren el servicio en ese puerto, además de dirigirlos a la dirección IP de la computadora que se encuentre corriendo el Broker.
 
