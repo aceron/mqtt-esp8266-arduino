@@ -57,6 +57,6 @@ mosquitto -v -c mosquitto.conf
 
 4.	El Mosquitto Broker (MQTT) estará disponible en el puerto 1883 de la computadora principal. Es necesario configurar los Arduinos para que encuentren el servicio en ese puerto, además de dirigirlos a la dirección IP de la computadora que se encuentre corriendo el Broker.
 
-5.	Se comparte en este repositorio un código de ejemplo para hacer una conexión desde un Arduino por MQTT, hasta una base de datos en MySQL utilizando Python.
+5.	Se comparte en este repositorio un código de ejemplo para hacer una conexión desde un Arduino por MQTT, hasta una base de datos en MySQL utilizando Python. (Se recomienda instalar MySQL Workbench y crear una base de datos de antemano: https://dev.mysql.com/downloads/workbench/)
 
 rev. 2024.11.26 by aceron
